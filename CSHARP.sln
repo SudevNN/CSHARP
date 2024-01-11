@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "seminar3.arrays", "seminar3.arrays", "{6A4BB209-AA4C-4275-87AC-516E3439ABA6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task1", "seminar3.arrays\Task1\Task1.csproj", "{FB8E80DE-1DCD-42DD-A3C3-C8D87E5DA1D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB8E80DE-1DCD-42DD-A3C3-C8D87E5DA1D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB8E80DE-1DCD-42DD-A3C3-C8D87E5DA1D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB8E80DE-1DCD-42DD-A3C3-C8D87E5DA1D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB8E80DE-1DCD-42DD-A3C3-C8D87E5DA1D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FB8E80DE-1DCD-42DD-A3C3-C8D87E5DA1D7} = {6A4BB209-AA4C-4275-87AC-516E3439ABA6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CA4FD19A-BE8A-4768-9D0C-6F4D5C37C4A7}
+	EndGlobalSection
+EndGlobal
