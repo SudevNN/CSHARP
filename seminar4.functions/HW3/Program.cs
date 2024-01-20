@@ -11,7 +11,7 @@ int[] CreateArray(int size)
     {
         array[i] = new Random().Next(1, 100);
     }
-    return array;      
+    return array;
 }
 
 int[] ReverseArray(int[] arrayIn)
@@ -21,7 +21,7 @@ int[] ReverseArray(int[] arrayIn)
     for (int i = 0, j = arrayIn.Length - 1; i < arrayIn.Length; i++, j--)
     {
         thirdVariable = arrayIn[i];
-        arrayOut[i] = arrayIn[j];  
+        arrayOut[i] = arrayIn[j];
         arrayOut[j] = thirdVariable;
     }
     return arrayOut;
