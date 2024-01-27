@@ -33,9 +33,8 @@ class UserInputToCompileForTest
     {
        //Напишите свое решение здесь
         int temp = array[0, i];
-        int maxLength = array.GetLength(0);
-        array[0, i] = array[maxLength, i];
-        array[maxLength, i] = temp;
+        array[0, i] = array[array.GetLength(0)-1, i];
+        array[array.GetLength(0)-1, i] = temp;
     }
 
     public static void PrintResult(int[,] numbers)
