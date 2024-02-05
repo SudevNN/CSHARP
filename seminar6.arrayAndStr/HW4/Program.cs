@@ -8,9 +8,9 @@
 
 string ReverseWords(string str)
 {
-        string[] words = str.Split(' ');
-        Array.Reverse(words);
-        return string.Join(" ", words);
+    string[] words = str.Split(' ');
+    Array.Reverse(words);
+    return string.Join(" ", words);
 }
 // Меняем кодировку для русских символов
 Console.InputEncoding = System.Text.Encoding.GetEncoding("utf-16");
